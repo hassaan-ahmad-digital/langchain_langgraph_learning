@@ -17,7 +17,7 @@ sentences = [
     "The capital of France is Paris.",
 ]
 
-query = "I want to end my policy?"
+query = "I want to end my policy"
 query_vector = embeddings.embed_query(query)
 
 document_vectors = embeddings.embed_documents(sentences)
